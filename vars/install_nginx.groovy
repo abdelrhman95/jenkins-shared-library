@@ -5,7 +5,7 @@ def call(){
     stages {
         stage('install nginx') {
             steps {
-                sh "sudo apt-get ubdate -y"
+                sh "sudo apt-get update -y"
                 sh "sudo apt-get install nginx -y"
             }
         }
