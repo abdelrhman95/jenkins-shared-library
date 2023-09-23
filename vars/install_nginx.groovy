@@ -1,6 +1,6 @@
 def call(){
     pipeline {
-        agent { label 'slave' }
+        agent { label 'slave-node' }
 
     stages {
         stage('install nginx') {
